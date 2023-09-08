@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalValue;
     private float rayDistance = 0.25f;
     private bool isGrounded;
-    private bool canMove;
+    private bool canMove = false;
     private int startingHealth = 5;
     private int currentHealth = 0;
     public int applesCollected = 0;
