@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Image fillColor;
     [SerializeField] private Color greenHealth, redHealth;
     [SerializeField] private TMP_Text appleText;
+    [SerializeField] private Color blue;
 
     [SerializeField] private ParticleSystem ps;
     
